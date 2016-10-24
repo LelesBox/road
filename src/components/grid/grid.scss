@@ -1,0 +1,33 @@
+.grid-container {
+  border: 1px solid rgba(0, 0, 0, .1);
+  position: relative;
+  box-sizing: border-box;
+  .row {
+    height: 100%;
+    width: 100%;
+    .row-item {
+      width: 100%;
+      border-bottom: 1px solid rgba(0, 0, 0, .1);
+      box-sizing: border-box;
+      &:last-child {
+        border: 0px;
+      }
+    }
+  }
+  .col {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    .col-item {
+      float: left;
+      height: 100%;
+      border-right: 1px solid rgba(0, 0, 0, .1);
+      box-sizing: border-box;
+      &:last-child {
+        border: 0px;
+      }
+    }
+  }
+}
