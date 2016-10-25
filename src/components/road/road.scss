@@ -31,11 +31,12 @@
 .circle {
   fill: green;
   animation: circle .5s linear forwards;
-  r: 5;
+  transform: scale(3);
+  transform-origin: 50% 50% 0;
 }
 
 @keyframes circle {
   to {
-    r: .5;
+    transform: scale(1);
   }
 }

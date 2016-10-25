@@ -6,7 +6,7 @@ import Road from './components/road'
 
 class App extends Component {
   render() {
-    var col = 70, row = 70, height = 700, width = 700
+    var col = 100, row = 100, height = 700, width = 700
     return (
       <div className="App">
         <div className="App-header">

@@ -52,6 +52,7 @@ function gcircle (cx, cy) {
     var c = document.createElementNS(svgNS,"circle")
     c.setAttributeNS(null, 'cx', cx)
     c.setAttributeNS(null, 'cy', cy)
+    c.setAttributeNS(null, 'r', .5)
     c.setAttributeNS(null, 'class', 'circle')
     return c
 }

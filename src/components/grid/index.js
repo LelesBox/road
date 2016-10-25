@@ -3,7 +3,6 @@ import './grid.scss'
 
 class Grid extends Component {
   render() {
-    console.log(this.props.children)
     const col = this.props.col || 1
     const row = this.props.row || 1
     const width = this.props.width || 1
