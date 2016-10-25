@@ -1,0 +1,41 @@
+.road-container {
+  position:absolute;
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  svg {
+    height:100%;
+    width:100%;
+  }
+}
+
+.road-path {
+  fill:transparent;
+  stroke:#ff0000;
+  animation: dash 2s linear forwards;
+}
+
+@keyframes dash {
+    to {
+      stroke-dashoffset: 0;
+    }
+}
+
+.circle-container {
+  position:absolute;
+  left:0;
+  top:0;
+}
+
+.circle {
+  fill: green;
+  animation: circle .5s linear forwards;
+  r: 5;
+}
+
+@keyframes circle {
+  to {
+    r: .5;
+  }
+}
